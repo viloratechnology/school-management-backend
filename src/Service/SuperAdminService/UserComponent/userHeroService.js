@@ -1,4 +1,4 @@
-const userHeroModel = require("../../../Model/SuperAdminModel/User Component/UserHeroModel");
+const userHeroModel = require("../../../Model/SuperAdminModel/UserComponent/userHeroModel");
 
 const addHeroService = async (body, heroBackground, heroIcon) => {
   const data = {

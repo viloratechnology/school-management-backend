@@ -1,5 +1,8 @@
-const HeadingService = require("../../../Service/SuperAdminService/User Component/HeadingService");
-const { successResponse, errorResponse } = require("../../../Utilities/ApiResponse");
+const HeadingService = require("../../../Service/SuperAdminService/UserComponent/HeadingService");
+const {
+  successResponse,
+  errorResponse,
+} = require("../../../Utilities/ApiResponse");
 
 const addHeadingController = async (req, res) => {
   try {
@@ -10,7 +13,7 @@ const addHeadingController = async (req, res) => {
       .status(201)
       .json(successResponse("Header Created successfully", data));
   } catch (error) {
-    return res.status(500).json(errorResponse("Failed to add Header",error));
+    return res.status(500).json(errorResponse("Failed to add Header", error));
   }
 };
 
@@ -19,7 +22,7 @@ const getHeadingController = async (_req, res) => {
     const result = await HeadingService.getHeadingService();
     return res.status(200).json(successResponse("Data Recieved", result));
   } catch (error) {
-    return res.status(500).json(errorResponse("Error Retrieving Data",error));
+    return res.status(500).json(errorResponse("Error Retrieving Data", error));
   }
 };
 
@@ -50,7 +53,7 @@ const editHeadingController = async (req, res) => {
       .status(201)
       .json(successResponse("Header Edited successfully", result));
   } catch (error) {
-    return res.status(500).json(errorResponse("Failed to editing",error));
+    return res.status(500).json(errorResponse("Failed to editing", error));
   }
 };
 

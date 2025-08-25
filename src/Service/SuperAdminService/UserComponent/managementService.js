@@ -1,4 +1,4 @@
-const ManagementModel = require("../../../Model/SuperAdminModel/User Component/ManagementModel");
+const ManagementModel = require("../../../Model/SuperAdminModel/UserComponent/managementModel");
 
 const addManagementService = async (body, file) => {
   const result = await ManagementModel.addManagementModel(

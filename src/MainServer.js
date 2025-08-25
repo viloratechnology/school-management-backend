@@ -14,10 +14,13 @@ con.connect((error)=>{
     if(error){
         console.log(error)
     }   
-    console.log("databse connected")
+    else{
+ console.log("databse connected")
     initialise.listen(4000,"0.0.0.0",()=>{
         console.log("connect success")
     })
+   
+    }
    
 })
 initialise.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec, {

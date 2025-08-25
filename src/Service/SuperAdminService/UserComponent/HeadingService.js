@@ -1,4 +1,4 @@
-const HeadingModel = require("../../../Model/SuperAdminModel/User Component/HeadingModel");
+const HeadingModel = require("../../../Model/SuperAdminModel/UserComponent/HeadingModel");
 
 const addHeadingService = async (body, file) => {
   const result = await HeadingModel.addHeadingModel(

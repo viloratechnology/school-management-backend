@@ -1,4 +1,4 @@
-const TopperService = require("../../../Service/SuperAdminService/User Component/UserToppersService");
+const TopperService = require("../../../Service/SuperAdminService/UserComponent/userToppersService");
 const {
   successResponse,
   errorResponse,

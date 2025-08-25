@@ -1,4 +1,4 @@
-const TopperModel = require("../../../Model/SuperAdminModel/User Component/UserToppersModel");
+const TopperModel = require("../../../Model/SuperAdminModel/UserComponent/userToppersModel");
 
 const addTopperService = async (body, files) => {
   const getdata = await TopperModel.addTopperModel(

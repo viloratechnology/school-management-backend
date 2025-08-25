@@ -1,4 +1,4 @@
-const userActivityService = require("../../../Service/SuperAdminService/User Component/userActivityService");
+const userActivityService = require("../../../Service/SuperAdminService/UserComponent/UserActivityService");
 const { errorResponse, successResponse } = require("../../../Utilities/ApiResponse");
 
 const addActivityController = async (req, res) => {
