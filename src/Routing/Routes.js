@@ -29,13 +29,13 @@ const getActivityController=require("../Controller/StudentAdminController/getAct
 const getAttendanceController=require("../Controller/StudentAdminController/getAttendanceController")
 
 //User Admin
-const GalleryController=require("../Controller/SuperAdminController/User Component/GalleryController")
+const GalleryController=require("../Controller/SuperAdminController/UserComponent/GalleryController")
 const CalenderContoller=require("../Controller/SuperAdminController/CalenderController")
-const userActivityController = require("../Controller/SuperAdminController/User Component/UserActivityController");
-const userToppersController = require("../Controller/SuperAdminController/User Component/UserToppersController");
-const userHeroController = require("../Controller/SuperAdminController/User Component/UserHeroController");
-const HeadingController=require("../Controller/SuperAdminController/User Component/HeadingController")
-const ManagementController = require('../Controller/SuperAdminController/User Component/ManangementController');
+const userActivityController = require("../Controller/SuperAdminController/UserComponent/UserActivityController");
+const userToppersController = require("../Controller/SuperAdminController/UserComponent/userToppersController");
+const userHeroController = require("../Controller/SuperAdminController/UserComponent/userHeroController");
+const HeadingController=require("../Controller/SuperAdminController/UserComponent/HeadingController")
+const ManagementController = require('../Controller/SuperAdminController/UserComponent/manangementController');
 
 const chatbotController = require("../Controller/AiController/chatbotController")
 const { authorizeRoles } = require("../JWT Service/authorizeRoles")

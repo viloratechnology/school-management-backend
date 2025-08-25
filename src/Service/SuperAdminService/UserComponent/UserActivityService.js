@@ -1,4 +1,4 @@
-const userActivityModel = require("../../../Model/SuperAdminModel/User Component/userActivityModel");
+const userActivityModel = require("../../../Model/SuperAdminModel/UserComponent/UserActivityModel");
 
 const addActivityService = async (data) => {
   const result = await userActivityModel.addActivityModel(data);

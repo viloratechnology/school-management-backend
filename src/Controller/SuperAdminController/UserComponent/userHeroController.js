@@ -1,4 +1,4 @@
-const userHeroService = require("../../../Service/SuperAdminService/User Component/UserHeroService");
+const userHeroService = require("../../../Service/SuperAdminService/UserComponent/userHeroService");
 const { errorResponse, successResponse } = require("../../../Utilities/ApiResponse");
 
 const addHeroController = async (req, res) => {

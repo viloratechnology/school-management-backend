@@ -1,7 +1,9 @@
-const GalleryService = require("../../../Service/SuperAdminService/User Component/GalleryService");
+const GalleryService = require("../../../Service/SuperAdminService/UserComponent/GalleryService");
 
-const { errorResponse, successResponse } = require("../../../Utilities/ApiResponse");
-
+const {
+  errorResponse,
+  successResponse,
+} = require("../../../Utilities/ApiResponse");
 
 const addGalleryController = (req, res) => {
   let files = req.files;

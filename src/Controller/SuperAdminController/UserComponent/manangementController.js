@@ -1,4 +1,4 @@
-const ManagementService = require("../../../Service/SuperAdminService/User Component/ManagementService");
+const ManagementService = require("../../../Service/SuperAdminService/UserComponent/managementService");
 const {
   errorResponse,
   successResponse,
